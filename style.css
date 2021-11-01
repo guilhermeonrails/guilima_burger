@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+}
+
+nav h1 {
+    font-size: 40px;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    max-width: 1200px;
+}
+
+.cartao {
+    width:500px;
+    padding:10px;
+    text-align:center;
+    margin-top:20px;
+    display:inline-block;
+}
+
+.cartao span {
+    font-size: 30px;
+}
+
+.cartao img {
+    max-width:400px;
+    max-height:300px;
+    width: 100%;
+}
+
+.valor {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
